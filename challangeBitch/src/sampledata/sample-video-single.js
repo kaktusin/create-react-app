@@ -1,5 +1,5 @@
 // This is just some sample data so you don't have to think of your own!
-const videoSingle = {
+const videoDataSingle = {
   "status": "success",
   "data": {
     "_id": "580fc79540ed671787ddd018",
@@ -33,4 +33,4 @@ const videoSingle = {
   }
 };
 
-export default videoSingle;
+export default videoDataSingle;

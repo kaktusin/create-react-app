@@ -1,5 +1,5 @@
 // This is just some output of the API data so you don't have to think of your !
-const videosList = {
+const videosDataList = {
   "status": "success",
   "data": [
     {
@@ -1622,4 +1622,4 @@ const videosList = {
   ]
 };
 
-export default videosList;
+export default videosDataList;
