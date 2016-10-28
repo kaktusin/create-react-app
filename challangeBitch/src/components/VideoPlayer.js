@@ -8,12 +8,15 @@ import 'react-html5video/dist/ReactHtml5Video.css';
 
 class VideoPlayer extends React.Component {
   render() {
+    let vidMergedUrl = `http://localhost:3000/${this.props.url}`;
+    console.log(vidMergedUrl);
     return (
       <Video
         controls
         // autoPlay
-        poster="https://unsplash.it/800/600">
-        <source src="http://localhost:3000/videos/How_Does_AngularJS_Work_Beginners_Angular_Tutorial.mp4" type="video/mp4" />
+        // poster="https://unsplash.it/800/600"
+      >
+        <source src={vidMergedUrl} type="video/mp4" />
       </Video>
         );
     }

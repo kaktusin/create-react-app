@@ -1,5 +1,5 @@
 import React from 'react'
-import { Rating } from 'semantic-ui-react'
+import { Rating, Button } from 'semantic-ui-react'
 
 // const Rating = ({rating}) => {
 //   return(
@@ -16,8 +16,15 @@ class RatingStars extends React.Component {
   render() {
     return (
       <div>
-        <Rating icon='star' defaultRating={5} maxRating={5} size='huge' onRate={this.handleRate} />
-        <pre>{JSON.stringify(this.state, null, 2)}</pre>
+        <Rating
+          icon='star'
+          // disabled
+          // defaultRating={4}
+          maxRating={5}
+          size='large'
+          onRate={this.handleRate}
+          rating={this.props.currentRating}/>
+        {/* <pre>{JSON.stringify(this.state, null, 2)}</pre> */}
       </div>
     )
   }

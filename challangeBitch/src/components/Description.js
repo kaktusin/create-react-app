@@ -1,14 +1,13 @@
 import React from 'react';
+import { Card } from 'semantic-ui-react'
 
 const Description = ({description, isPlayer}) => {
 
-  let videoDescription = (isPlayer) ? description : (description.split(" ", 20).join(" ")) + "...";
+  let videoDescription = (isPlayer) ? description : (description.split(" ", 15).join(" ")) + "...";
   //Shorten the video description in 20 words if the component is not in the <videoPlayer/> component.
   //console.log(videoDescription);
   return(
-    <div >
-      <p>{videoDescription}</p>
-    </div>
+    <Card.Content description={videoDescription}/>
   )
 }
 

@@ -22,3 +22,15 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.vidCard{
+  padding: 0px!important;
+}
+
+.vidCard .video__el{
+  width: 100%!important;
+}
+/*
+.description{
+  min-height: 60px;
+}*/
