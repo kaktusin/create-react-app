@@ -6,12 +6,10 @@ const Description = ({description, isPlayer}) => {
   //Shorten the video description in 20 words if the component is not in the <videoPlayer/> component.
   //console.log(videoDescription);
   return(
-    <div className="row">
-      <div className="col-xs-3">
-        <p>{videoDescription}</p>
-      </div>
+    <div >
+      <p>{videoDescription}</p>
     </div>
-    )
+  )
 }
 
 Description.defaultProps = {

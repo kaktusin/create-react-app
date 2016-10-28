@@ -10,7 +10,7 @@ const VideoListBox = (props) => {
 }
 
 VideoListBox.propTypes = {
-  // rating: React.PropTypes.number.isRequired,
+  data: React.PropTypes.object.isRequired,
 }
 
 export default VideoListBox;

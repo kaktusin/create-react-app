@@ -1,7 +1,9 @@
 
 import React from 'react';
-import './ReactHtml5Video.css';
-import { default as Video, Controls, Play, Mute, Seek, Fullscreen, Time, Overlay } from 'react-html5video';
+// import '../node_modules/ReactHtml5Video.css';
+// import { default as Video, Controls, Play, Mute, Seek, Fullscreen, Time, Overlay } from 'react-html5video';
+import Video from 'react-html5video';
+import 'react-html5video/dist/ReactHtml5Video.css';
 
 
 class VideoPlayer extends React.Component {

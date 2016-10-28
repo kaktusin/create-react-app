@@ -6,9 +6,11 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "jquery": "^3.1.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-html5video": "^1.2.12"
+    "react-html5video": "^1.2.12",
+    "semantic-ui-react": "^0.56.14"
   },
   "scripts": {
     "start": "react-scripts start",
