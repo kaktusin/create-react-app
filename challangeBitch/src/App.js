@@ -2,15 +2,13 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import FormFormExample from './components/sem.js'
-// import Rating from './components/Rating';
+import RatingStars from './components/RatingStars';
 
 // import VideoThumb from './components/VideoThumb';
 import Description from './components/Description';
 // import VideoPlayer from './components/VideoPlayer';
 // import VideoListBox from './components/VideoListBox';
 
-// let rating = 4;
 
 class App extends Component {
     constructor() {
@@ -1645,7 +1643,7 @@ class App extends Component {
         // })
 
         return (
-          <div><FormFormExample/>
+          <div>
             <div className="App">
 
               <div className="App-header">
@@ -1658,7 +1656,7 @@ class App extends Component {
               <p className="App-intro"></p>
               {/* <VideoPlayer /> */}
               {/* <VideoThumb imgSource="https://unsplash.it/200" videoTitle="Bubir başlık" videoId="fasdfdsa" /> */}
-              {/* <Rating rating={rating} /> */}
+              <RatingStars/>
               <Description // isPlayer="true"
                 description="The yield keyword may not be used in an arrow function's body (except when permitted within functions further nested within it). As a consequence, arrow functions cannot be used as generators."/>
 
